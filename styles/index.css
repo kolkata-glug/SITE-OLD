@@ -1,0 +1,107 @@
+/* @charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  width: 100vw;
+}
+
+body {
+  background-color: #111111;
+  color: #f8f8f8;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ff951b;
+  transition: all 0.1s linear;
+}
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+a:visited {
+  color: #ff951b;
+}
+a:active {
+  color: #ff0000;
+}
+
+main {
+  width: 1300px;
+}
+
+hr {
+  border: 1px solid white;
+  margin: 2.4rem 0;
+}
+
+h1 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+p {
+  margin: 0rem 1rem;
+  text-align: center;
+  color: #929292;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+p b {
+  font-weight: 700;
+}
+
+#socials {
+  width: 700px;
+  margin: 2rem auto;
+  padding: 2rem 2rem;
+  background-color: #040404;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 1.4rem;
+  display: block;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#glug_wiki_url {
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+#glug_wiki_url::before {
+  content: "💡";
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+  hr {
+    width: 95%;
+    margin: 2rem auto;
+  }
+  #socials {
+    width: 90%;
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+    overflow-y: scroll;
+  }
+}
+ */
